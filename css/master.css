@@ -120,6 +120,25 @@ section.hs-home-center{
   border: 1px solid black;
 
 }
+.community-table table{
+  text-align: center;
+  margin: auto;
+}
+.community-table table td{
+  height: 145px;
+  width: 145px;
+}
+td.hs-user-group, td.hs-blog, td.hs-accademy{
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+td.hs-inbound{
+  border-bottom: 1px solid black;
+
+}
+td.hs-connect-integrations, td.hs-language, td.hs-social-followers{
+  border-right: 1px solid black;
+}
 .hs-customers-container{
   width: 80%;
   margin: auto;
