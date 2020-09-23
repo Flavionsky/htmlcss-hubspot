@@ -9,9 +9,13 @@
   display: table;
   content: "";
 }
-.container{
+body{
   height: 100vh;
   width: 100vw;
+}
+.container{
+  width: 80%;
+  margin: auto;
 }
 .nav-global-bar{
   height: 200px;
@@ -82,17 +86,17 @@ section.hs-home-center{
   border: 1px solid black;
 
 }
-.colomn{
+.column-bottom-row{
   height: 600px;
   background-color: white;
   border: 1px solid black;
   margin-top:60px;
   width: calc(100% / 3 - 40px);
 }
-.colomn-left, .colomn-central, .colomn-right{
+.column-bottom-row.column-left, .column-bottom-row.column-central, .column-bottom-row.column-right{
   float: left;
 }
-.colomn-central{
+.column-central{
   margin-left: 60px;
   margin-right: 60px;
 }
@@ -121,6 +125,77 @@ section.hs-home-center{
   margin: auto;
 }
 .hs-customers{
+  width: 80%;
+  margin: auto;
   border: 1px solid black;
   height: 400px;
+}
+.hs-customers .customers-column-left, .hs-customers .customers-column-right{
+  float: left;
+  height: 100%;
+}
+.hs-customers .customers-column-left{
+  width: 40%;
+  border: 1px solid black;
+
+}
+.hs-customers .customers-column-right{
+  width: 60%;
+  border: 1px solid black;
+}
+footer{
+  background-color: #32495B;
+}
+section.hs-footer{
+  border: 1px solid black;
+  height: 550px;
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  color: white;
+}
+.top-row-footer .column-footer{
+  height: 300px;
+  width: 250px;
+  border: 1px solid black;
+  margin-right: 50px;
+}
+.column-footer.column-system-software, .column-footer.column-contacts, .column-footer.column-manage-tools, .column-footer.column-supports{
+float: left;
+}
+ul.menu-language{
+  text-align: center;
+  margin-bottom: 20px;
+}
+ul.menu-language li{
+  display: inline-block;
+  height: 45px;
+  line-height: 45px;
+  padding: 40px 10px;
+
+}
+ul.menu-language li a{
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+#hr-footer{
+  border-bottom-color: white;
+  opacity: 0.6;
+}
+.row-bottom-footer{
+  margin-top: 30px;
+}
+.row-bottom-footer .column-copyright{
+  float: left;
+
+}
+.row-bottom-footer .column-legal-privacy{
+  float: right;
+  line-height: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+#footer-legal{
+  margin-right: 15px;
 }
