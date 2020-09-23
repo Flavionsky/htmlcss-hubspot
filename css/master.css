@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+.clearfix:after{
+  clear: both;
+  display: table;
+  content: "";
+}
+.container{
+  height: 100vh;
+  width: 100vw;
+}
+.nav-global-bar{
+  height: 200px;
+}
+nav.top-bar{
+  height: 100px;
+  background-color: #F4F9FD;
+}
+nav.top-bar .top-bar-left{
+  width: 40%;
+  height: 100px;
+  border:1px solid black;
+  float: left;
+}
+nav.top-bar .top-bar-right{
+  width: 60%;
+  height: 100px;
+  border:1px solid black;
+  float: left;
+}
+nav.menu-nav-bar{
+  height: 100px;
+  background-color: #FFFFFF;
+}
+.menu-nav-bar .hs-logo{
+  width: 40%;
+  height: 100px;
+  border:1px solid black;
+  float: left;
+}
+.menu-nav-bar .group-item{
+  width: 60%;
+  height: 100px;
+  border:1px solid black;
+  float: left;
+}
+
+section.hs-concept{
+  width: 100%;
+  height: 600px;
+  background-color: #FFF2EF;
+}
+div.separator{
+  background-color: #AFEBE4;
+  border-top:2px solid black;
+  border-bottom: 2px solid black;
+  height: 50px;
+}
