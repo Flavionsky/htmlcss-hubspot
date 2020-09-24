@@ -9,6 +9,11 @@
   display: table;
   content: "";
 }
+.vertical-center{
+  position: absolute;
+  top: 50%;
+  transform: translate( 0, -50%);
+}
 body{
   height: 100vh;
   width: 100vw;
@@ -16,52 +21,113 @@ body{
 .container{
   width: 80%;
   margin: auto;
+  font-family: 'Quicksand', sans-serif;
 }
 .nav-global-bar{
   height: 200px;
+  color: #10003A;
 }
 nav.top-bar{
-  height: 100px;
   background-color: #F4F9FD;
+  border-bottom:1px solid black;
 }
 nav.top-bar .top-bar-left{
   width: 40%;
   height: 100px;
-  border:1px solid black;
   float: left;
+  text-align: center;
+  position: relative;
+  padding-left: 15%;
+  border:1px solid black;
+}
+select.chose-language, .top-bar-left-separator, .hs-contact-us, .globe-language{
+  display: inline-block;
+}
+.hs-contact-us a{
+  text-decoration: none;
+  color: #10003A;
+}
+.top-bar-left-separator{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 nav.top-bar .top-bar-right{
   width: 60%;
   height: 100px;
-  border:1px solid black;
   float: left;
+  position: relative;
+  border:1px solid black;
+
+}
+.hs-search-bar, .log-in-button, .get-hubspot-free{
+  display: inline-block;
+}
+.hs-search-bar a{
+  color: #24ACC4;
+}
+.log-in-button a{
+  text-decoration: none;
+  color: #FE775A;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  border:1px solid #FE775A;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+ .get-hubspot-free a{
+  text-decoration: none;
+  color: white;
+  background-color: #FE775A;
+  border-radius: 5px;
+  padding: 10px;
 }
 nav.menu-nav-bar{
-  height: 100px;
   background-color: #FFFFFF;
 }
 .menu-nav-bar .hs-logo{
   width: 40%;
   height: 100px;
-  border:1px solid black;
   float: left;
+  border:1px solid black;
+  position: relative;
+  padding-left: 15%;
 }
 .menu-nav-bar .group-item{
   width: 60%;
   height: 100px;
   border:1px solid black;
+  position: relative;
   float: left;
 }
-
+.right-pattern{
+  position: absolute;
+  right: 0px;
+  padding-right: 15%;
+}
+.choose-software, .pricing, .choose-resources, .choose-partners, .choose-about{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 section.hs-concept{
-  height: 600px;
   background-color: #FFF2EF;
+  width: 40%;
+  height: 700px;
+  float: left;
+}
+section.hs-concept-image{
+  float: left;
+  width: 60%;
+  height: 700px;
+background-color: #FFF2EF;
 }
 div.separator{
   background-color: #AFEBE4;
-  border-top:2px solid black;
+  border-top: 2px solid black;
   border-bottom: 2px solid black;
-  height: 50px;
+  height: 100px;
 }
 
 section.hs-home-center{
@@ -175,7 +241,7 @@ section.hs-footer{
 }
 .top-row-footer .column-footer{
   height: 300px;
-  width: 250px;
+  width: calc(100% / 4 - 50px);
   border: 1px solid black;
   margin-right: 50px;
 }
@@ -213,7 +279,6 @@ ul.menu-language li a{
   float: right;
   line-height: 30px;
   height: 30px;
-  vertical-align: middle;
 }
 #footer-legal{
   margin-right: 15px;
