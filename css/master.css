@@ -14,13 +14,17 @@
   top: 50%;
   transform: translate( 0, -50%);
 }
+.perfect-center{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate( -50%, -50%);
+}
 body{
   height: 100vh;
   width: 100vw;
 }
 .container{
-  width: 80%;
-  margin: auto;
   font-family: 'Quicksand', sans-serif;
 }
 .nav-global-bar{
@@ -37,7 +41,7 @@ nav.top-bar .top-bar-left{
   float: left;
   text-align: center;
   position: relative;
-  padding-left: 15%;
+  padding-left: 10%;
   border:1px solid black;
 }
 select.chose-language, .top-bar-left-separator, .hs-contact-us, .globe-language{
@@ -92,7 +96,7 @@ nav.menu-nav-bar{
   float: left;
   border:1px solid black;
   position: relative;
-  padding-left: 15%;
+  padding-left: 10%;
 }
 .menu-nav-bar .group-item{
   width: 60%;
@@ -116,6 +120,35 @@ section.hs-concept{
   width: 40%;
   height: 700px;
   float: left;
+  padding-top: 50px;
+  padding-left: 10%;
+}
+.hs-concept h1.title-better-way{
+  font-weight: bold;
+  font-size: 50px;
+}
+.hs-concept p.hs-concept-paragraph{
+  padding-top: 40px;
+  font-size: 16px;
+  line-height: 30px;
+}
+ .hs-concept p.start-free-paragraph {
+  padding-top: 40px;
+  font-size: 13px;
+ }
+.get-hubspot-free-big{
+  background-color: #FE775A;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  margin-top: 40px;
+}
+.get-hubspot-free-big a{
+ text-decoration: none;
+ color: white;
+
 }
 section.hs-concept-image{
   float: left;
@@ -132,7 +165,7 @@ div.separator{
 
 section.hs-home-center{
   background-color: #F4F9FD;
-  height: 1200px;
+  height: 1800px;
   padding-top:20px;
 }
 .hs-central{
@@ -140,15 +173,36 @@ section.hs-home-center{
   margin: auto;
 }
 .hs-central .top-row{
-  height: 200px;
-  background-color: blue;
-  border: 1px solid black;
+  position: relative;
+  height: 240px;
+  margin-top: 50px;
+}
+.top-row img{
+  height: 100%;
+  width: 300px;
 
 }
-.hs-central .central-row{
+.hs-central .cube-image-caption{
   margin-top: 60px;
-  background-color: white;
   height: 200px;
+  width: 60%;
+  margin: auto;
+}
+.cube-image-caption h1{
+  font-size: 30px;
+  text-align: center;
+  padding: 15px;
+}
+.cube-image-caption p{
+  line-height: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 15px;
+}
+.hs-central .central-row {
+  margin-top: 60px;
+  height: 400px;
+  background-color: white;
   border: 1px solid black;
 
 }
