@@ -433,21 +433,29 @@ footer{
   background-color: #32495B;
 }
 section.hs-footer{
-  border: 1px solid black;
-  height: 550px;
   width: 80%;
   margin: auto;
   padding-top: 20px;
   color: white;
+  opacity: 0.8;
 }
 .top-row-footer .column-footer{
-  height: 300px;
+  height: 400px;
   width: calc(100% / 4 - 50px);
-  border: 1px solid black;
   margin-right: 50px;
 }
 .column-footer.column-system-software, .column-footer.column-contacts, .column-footer.column-manage-tools, .column-footer.column-supports{
 float: left;
+}
+.column-footer.column-system-software p, .column-footer.column-contacts p, .column-footer.column-manage-tools p, .column-footer.column-supports p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.column-footer.column-system-software h1, .column-footer.column-contacts h1, .column-footer.column-manage-tools h1, .column-footer.column-supports h1{
+  padding-bottom: 20px;
+}
+.social-media-container i{
+  padding: 11px;
 }
 ul.menu-language{
   text-align: center;
@@ -480,6 +488,15 @@ ul.menu-language li a{
   float: right;
   line-height: 30px;
   height: 30px;
+}
+.column-supports .contact-hs-button{
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 200px;
+  background-color: white;
+  color: #32495B;
+  border-radius: 10px;
 }
 #footer-legal{
   margin-right: 15px;
