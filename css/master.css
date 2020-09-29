@@ -302,6 +302,9 @@ opacity: 0.4;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+ul.check-and-title li{
+  list-style-type: none;
+}
 .column-left .check-and-title, .column-left .hs-learn-more-button, .column-center .check-and-title, .column-center .hs-learn-more-button,  .column-right .check-and-title, .column-right .hs-learn-more-button{
   width: 60%;
   margin: auto;
