@@ -51,6 +51,9 @@ nav.top-bar .top-bar-left{
 select.chose-language, .top-bar-left-separator, .hs-contact-us, .globe-language{
   display: inline-block;
 }
+.fa-chevron-down{
+  padding-left: 10px;
+}
 .hs-contact-us a{
   text-decoration: none;
   color: #10003A;
